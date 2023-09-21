@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #be3144;
+}
+
+ul {
+  display: flex;
+  justify-content: end;
+  padding-right: 30px;
+}
+
+ul > li {
+  list-style: none;
+  padding: 20px;
+}
+ul > li:hover {
+  background-color: rgb(62, 62, 140);
+}
+li > a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30.8px;
+}
+
