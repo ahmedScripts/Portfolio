@@ -29,4 +29,25 @@ li > a {
   font-weight: 400;
   line-height: 30.8px;
 }
-
+#about{
+    background-color: #2f3134;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about > h1{
+    font-family: 'Raleway, sans-serif';
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 84px;
+}
+#about > p{
+    font-family: 'Poppons, sans-serif';
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 42px;
+    color: #832640;
+}
