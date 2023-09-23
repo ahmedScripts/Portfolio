@@ -66,31 +66,6 @@ li > a {
   border-bottom: 1px solid white;
   text-align: center;
 }
-#contact {
-  background-color: #2f3134;
-  height: 50vh;
-}
-.intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  padding-top: 50px;
-}
-.intro > h1 {
-  font-family: "Raleway", sans-serif;
-  font-size: 60px;
-  font-weight: 700;
-  line-height: 84px;
-}
-.intro > p {
-  font-family: "Poppins, sans-serif";
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 25px;
-  font-style: italic;
-}
 
 .projects {
   display: grid;
@@ -140,4 +115,47 @@ a > button {
 }
 a > button:hover {
   background-color: #be3144;
+}
+#contact {
+  background-color: #2f3134;
+  height: 50vh;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 50px;
+}
+.intro > h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 84px;
+}
+.intro > p {
+  font-family: "Poppins, sans-serif";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  font-style: italic;
+}
+.social-links{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+.social-links > a{
+  color: white;
+  padding: 15px;
+}
+.social-links > i{
+  color: white;
+  padding: 15px;
+ 
 }
