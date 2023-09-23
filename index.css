@@ -176,3 +176,27 @@ footer > p {
   font-weight: 300;
   line-height: 25.2px;
 }
+
+/* Responsive design */
+@media (max-width: 786px) {
+  #about > h1 {
+    font-size: 35px;
+  }
+  #work > h1 {
+    font-size: 35px;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  a > button {
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+  .intro > h1 {
+    font-size: 35px;
+  }
+ 
+}
